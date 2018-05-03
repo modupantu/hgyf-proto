@@ -1,0 +1,234 @@
+/* 首页轮播图 */
+#Banner {
+      width: 100%;
+      height: 639px;
+  }
+
+  #Banner .swiper-wrapper {
+      width: 100%;
+      height: 100%;
+  }
+
+  #Banner .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+  }
+
+  #Banner .swiper-slide img {
+      width: 100%;
+      height: 100%;
+  }
+
+  #Banner .swiper-container .swiper-pagination-bullet {
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      background: #D61F6D;
+  }
+
+/* 加盟 */
+
+.join_type {
+    width: 100%;
+    /* height: 171px; */
+    background: #ff89be;
+    overflow: hidden;
+}
+
+.join_type ul {
+    width: 1240px;
+    /* height: 135px; */
+    margin: 20px auto;
+    /* background: pink; */
+    border-left: 1px dotted #dc9c9b;
+}
+
+.join_type ul li {
+    float: left;
+    width: 293px;
+    /* height: 122px; */
+    padding: 10px 0 30px;
+    /* background: red; */
+    border-right: 1px dotted #dc9c9b;
+}
+
+.lu li img {
+    width: 293px;
+    overflow: hidden;
+}
+
+/* .join_type ul .li_1 {
+  width: 357px;
+} */
+
+/*加盟流程*/
+
+.join_liucheng {
+    width: 1240px;
+    height: 685px;
+    overflow: hidden;
+    background: #FFF;
+    margin: 0 auto;
+}
+
+.join_liucheng .join_title {
+    width: 100%;
+    height: 270px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#imgLogo {
+    transform-origin: center top;
+    transform: rotate(0deg);
+    animation: huang 2s infinite;
+}
+
+.join_title h2 {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.join_title p {
+    line-height: 24px;
+    color: #777;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+@keyframes huang {
+    0% {
+        transform: rotate(30deg);
+    }
+    50% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
+/*产品列表*/
+
+.product_table {
+    width: 100%;
+    height: 390px;
+    padding: 75px 0 50px 0;
+    background: #e3e3e3;
+}
+
+.Customer {
+    width: 1280px;
+    height: 400px;
+    margin: 75px auto 70px;
+    position: relative;
+    background: #e3e3e3;
+    overflow: hidden;
+}
+#Costomer {
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Costomer .swiper-slide {
+    text-align: center;
+    font-size: 24px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+.swiper-slide .name {
+    width: 100px;
+    margin: 0 50px;
+}
+
+.swiper-slide .product {
+    width: 100px;
+    margin: 0 50px;
+}
+
+.swiper-slide .address {
+    width: 400px;
+    margin: 0 100px;
+}
+
+.title {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.title h2 {
+    color: #D61F6D;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.title h2>small {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+#Pwiper {
+    width: 100%;
+    height: 380px;
+}
+
+#Pwiper .swiper-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+#Pwiper .swiper-slide {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    width: 370px;
+    height: 277px;
+}
+
+.swiper-slide img {
+    width: 370px;
+    height: 277px;
+}
+
+.produce_title {
+    position: absolute;
+    bottom: -100px;
+    width: 350px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 18px;
+    background: #fff;
+}
+
+.produce_title:hover {
+    color: #D61F6D;
+}
+
+.swiper-slide:hover {
+    background-size: 1000px 500px;
+    background-repeat: no-repeat;
+    animation: fd 1s;
+}
+
+@keyframes fd {
+    from {
+        background-size: 600px 400px;
+    }
+    to {
+        background-size: 1000px 600px;
+    }
+}
