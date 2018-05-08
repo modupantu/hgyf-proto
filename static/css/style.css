@@ -69,18 +69,19 @@ a {
 .clear {
     display: inline-block;
 }
-/* 头部 */
 
+/* 头部 */
 
 .container {
     width: 1280px;
     margin: 0 auto;
-
 }
+
 .header {
     width: 100%;
     height: 90px;
 }
+
 .logo {
     width: 211px;
     height: 65px;
@@ -160,18 +161,19 @@ a {
 }
 
 /* 脚部 */
+
 .footer {
     width: 100%;
     padding: 30px 0 25px 0;
     background: #313131;
-    height: 420px;
+    height: 220px;
     margin: 0 auto 0;
 }
 
 .footer_cont {
     float: left;
     width: 545px;
-    height: 400px;
+    height: 200px;
 }
 
 .footer_cont>h2 {
@@ -241,27 +243,45 @@ a {
 .shouce:hover {
     color: #D61F6D;
 }
+
 #bgRed {
     background-color: #E61773;
     color: #fff;
 }
+
 .liuyan {
     width: 100%;
     margin: 0 auto;
-    height: 490px;
+    height: 900px;
     background: #e3e3e3;
     overflow: hidden;
 }
-.liuyan .title{
+
+.liuyan .title {
     width: 1280px;
     margin: 0 auto;
 }
+
 .liuyan .title h2 small {
     color: white;
     font-size: 20px;
 }
+
 .footer_msg {
     width: 100%;
 }
 
+.footer_cont2 {
+    padding-top:20px;
+    float: right;
+}
 
+.footer_cont2 .link {
+    color: #8e8e8e;
+}
+.link a{
+    color:#8e8e8e;
+}
+.link a:hover{
+    color:#E61773;
+}
