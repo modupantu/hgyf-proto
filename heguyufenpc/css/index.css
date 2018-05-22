@@ -1,0 +1,153 @@
+.h_m{
+	position: absolute;
+	top: 3%;
+	left: 38%;
+	width: 6%;
+	z-index: 999;	
+}
+.h_phone{
+	position: absolute;
+	top: 13%;
+	left: 8%;
+	width:27%;
+	z-index: 999;
+}
+.lyq_pro{
+	/*width: 1200px;*/
+	/*margin-top:300px;*/
+	margin: 0 auto;
+}
+
+.into{
+	background: url(../images/h_bg2.jpg) no-repeat;
+	background-size: 100%;
+	padding: 32px 0;
+}
+.mx{
+	width: 1200px;
+	margin:0 auto;
+}
+.mx ul{
+	overflow: hidden;
+}
+.mx ul li{
+	width: 286px;
+	height: 460px;
+	margin-right:14px;
+	float: left;
+	background-color: rgba(74,71,71,0.15);
+}
+.mx ul li p{
+	font-size: 36px;
+	text-align: center;
+	margin-top: 34px;
+	margin-bottom: 0;
+}
+.mx ul li a{
+	width: 372px;
+	text-align: center;
+}
+.product{
+	width: 1200px;
+	margin:32px auto;
+	background-color: rgba(74,71,71,0.15);
+	overflow: hidden;
+}
+.product img{
+	float: left;
+	margin: 20px 9px;
+}
+.join_h{
+	width: 100%;
+	height: 88px;
+	background-color: #b93434;
+}
+.pro_inner{
+	width: 1200px;
+	margin:0 auto;
+}
+.sanjiao{
+	float: left;
+	/*margin: auto 20px;*/
+	margin-top: 80px;
+}
+.sanjiao2{
+	/*float: right;*/
+	margin-left:1052px;
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+.sanjiao3{
+	float: left;
+	margin-top: 80px;
+}
+.about_single{
+	position: relative;
+}
+.about_single p{
+	position: absolute;
+	top: 48px;
+	left: 0;
+	color: #fff;
+}
+.inner_top{
+	overflow: hidden;
+}
+.inner_bottom{
+	overflow: hidden;
+}
+
+.sup{
+	width: 70%;
+	margin-top: 50px;
+} 
+.help{
+	width: 100%;
+	height:100%;
+	display:inline-block;
+	text-align: center;
+} 
+
+.message_inner{
+	width: 1080px;
+	margin:0 auto;
+}
+.txt1,.city,.txt2{
+	font-size: 18px;
+	border-bottom: 1px solid #f8f8f8;
+	width: 93%;
+	margin:0 auto;
+	padding: 2px;
+	color: #bab9b9;
+}
+input{
+	background-color: transparent;
+	width: 85%;
+	border: transparent;
+	outline: none;
+}
+.but{
+	width: 22%;
+	background-color: #fff;
+	border: 4px solid #943f25;
+	border-radius: 5px;
+	float: right;
+	color: #000;
+	margin: 45px 0;
+}
+.txt3{
+	font-size: 18px;
+	width: 93%;
+	margin:0 auto;
+	overflow: hidden;
+	padding: 2px;
+	color: #bab9b9;
+}
+.inner{
+	width: 100%;
+	margin:0 auto;
+	height:120px;
+	background-color: transparent;
+	resize: none;
+	border-radius: 6px;
+}
